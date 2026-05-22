@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeMamaScan — Politique de confidentialité</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #FFF0F5; color: #2D1B3D; line-height: 1.7; }
+    header { background: #2D1B3D; padding: 24px 20px; text-align: center; }
+    header h1 { color: #F2CAD8; font-size: 24px; margin-bottom: 4px; }
+    header p { color: #9B7DC4; font-size: 14px; }
+    .container { max-width: 800px; margin: 0 auto; padding: 32px 20px; }
+    .lang-switch { display: flex; gap: 12px; margin-bottom: 32px; }
+    .lang-btn { padding: 8px 20px; border-radius: 20px; border: none; cursor: pointer; font-weight: bold; font-size: 14px; background: #E0D4F0; color: #2D1B3D; }
+    .lang-btn.active { background: #9B7DC4; color: white; }
+    .section { background: white; border-radius: 16px; padding: 24px; margin-bottom: 16px; border-left: 4px solid #9B7DC4; box-shadow: 0 2px 8px rgba(155,125,196,0.1); }
+    .section h2 { color: #2D1B3D; font-size: 18px; margin-bottom: 12px; }
+    .section p, .section li { color: #4D3060; font-size: 15px; margin-bottom: 8px; }
+    .section ul { padding-left: 20px; }
+    .disclaimer { background: #FFF0F5; border: 2px solid #F2CAD8; border-radius: 16px; padding: 20px; margin-top: 24px; text-align: center; }
+    .disclaimer p { color: #C97FA0; font-style: italic; font-size: 14px; }
+    footer { text-align: center; padding: 24px; color: #9B7DC4; font-size: 13px; border-top: 1px solid #E0D4F0; margin-top: 32px; }
+    a { color: #9B7DC4; }
+    [lang="en"] { display: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🤰 SafeMamaScan</h1>
+  <p>Politique de confidentialité — Privacy Policy</p>
+</header>
+
+<div class="container">
+  <div class="lang-switch">
+    <button class="lang-btn active" onclick="switchLang('fr')">🇫🇷 Français</button>
+    <button class="lang-btn" onclick="switchLang('en')">🇬🇧 English</button>
+  </div>
+
+  <!-- FRANÇAIS -->
+  <div lang="fr">
+    <div class="section">
+      <h2>📋 Introduction</h2>
+      <p>SafeMamaScan est une application mobile d'information alimentaire destinée aux femmes enceintes et allaitantes. Nous prenons votre vie privée très au sérieux.</p>
+      <p><strong>Dernière mise à jour :</strong> 2026 — Version 1.1.0-beta</p>
+    </div>
+    <div class="section">
+      <h2>📱 Données collectées</h2>
+      <p>SafeMamaScan <strong>ne collecte aucune donnée personnelle identifiable</strong>. Plus précisément :</p>
+      <ul>
+        <li>✅ Aucun nom, prénom ou email n'est collecté</li>
+        <li>✅ Aucun compte utilisateur n'est requis</li>
+        <li>✅ Aucune localisation n'est trackée</li>
+        <li>✅ Votre historique de scans reste uniquement sur votre appareil</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>🚩 Signalements d'erreurs</h2>
+      <p>Lorsque vous signalez une erreur volontairement via le bouton 🚩, les informations suivantes sont transmises de manière anonyme :</p>
+      <ul>
+        <li>Type d'erreur signalée</li>
+        <li>Nom et identifiant du produit scanné</li>
+        <li>Mode utilisé (grossesse/allaitement)</li>
+        <li>Verdict affiché</li>
+        <li>Langue de l'application</li>
+        <li>Date et heure du signalement</li>
+      </ul>
+      <p>Ces données sont utilisées uniquement pour améliorer la précision de l'application. Aucune information personnelle n'est incluse.</p>
+    </div>
+    <div class="section">
+      <h2>🗄️ Stockage des données</h2>
+      <ul>
+        <li><strong>Historique des scans</strong> — stocké localement sur votre appareil uniquement</li>
+        <li><strong>Préférences</strong> (langue, mode, thème) — stockées localement</li>
+        <li><strong>Acceptation des CGU</strong> — stockée localement avec la date d'acceptation</li>
+        <li><strong>Signalements</strong> — transmis anonymement à Firebase (Google)</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>🔒 Sécurité</h2>
+      <p>Les signalements sont stockés sur Firebase Firestore (Google Cloud) avec des règles de sécurité strictes. Seul l'éditeur de SafeMamaScan a accès à ces données. Elles ne sont jamais vendues ni partagées avec des tiers.</p>
+    </div>
+    <div class="section">
+      <h2>🌐 Services tiers</h2>
+      <ul>
+        <li><strong>Open Food Facts</strong> — base de données alimentaire open source. Aucune donnée personnelle n'est transmise.</li>
+        <li><strong>Firebase (Google)</strong> — réception des signalements d'erreurs anonymes uniquement.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>⚖️ Vos droits (RGPD)</h2>
+      <ul>
+        <li><strong>Suppression</strong> — effacez votre historique via Historique → Effacer</li>
+        <li><strong>Accès</strong> — vos données locales sont accessibles directement sur votre appareil</li>
+        <li><strong>Contact</strong> — <a href="mailto:safemamascanapp@gmail.com">safemamascanapp@gmail.com</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>👶 Données des mineurs</h2>
+      <p>SafeMamaScan n'est pas destiné aux personnes de moins de 18 ans et ne collecte pas sciemment de données provenant de mineurs.</p>
+    </div>
+    <div class="section">
+      <h2>🔄 Modifications</h2>
+      <p>Cette politique peut être mise à jour. La date de dernière modification est indiquée en haut de cette page. Les utilisateurs seront informés des changements significatifs lors de l'ouverture de l'application.</p>
+    </div>
+    <div class="section">
+      <h2>📧 Contact</h2>
+      <p>Pour toute question : <a href="mailto:safemamascanapp@gmail.com">safemamascanapp@gmail.com</a></p>
+    </div>
+    <div class="disclaimer">
+      <p>⚕️ SafeMamaScan est un outil d'information uniquement et ne remplace pas l'avis d'un professionnel de santé.</p>
+    </div>
+  </div>
+
+  <!-- ENGLISH -->
+  <div lang="en">
+    <div class="section">
+      <h2>📋 Introduction</h2>
+      <p>SafeMamaScan is a mobile food information application for pregnant and breastfeeding women. We take your privacy very seriously.</p>
+      <p><strong>Last updated:</strong> 2026 — Version 1.1.0-beta</p>
+    </div>
+    <div class="section">
+      <h2>📱 Data collected</h2>
+      <p>SafeMamaScan <strong>does not collect any personally identifiable data</strong>. Specifically:</p>
+      <ul>
+        <li>✅ No name or email is collected</li>
+        <li>✅ No user account is required</li>
+        <li>✅ No location is tracked</li>
+        <li>✅ Your scan history stays only on your device</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>🚩 Error reports</h2>
+      <p>When you voluntarily report an error via the 🚩 button, the following is transmitted anonymously:</p>
+      <ul>
+        <li>Type of error reported</li>
+        <li>Name and ID of the scanned product</li>
+        <li>Mode used (pregnancy/breastfeeding)</li>
+        <li>Verdict displayed</li>
+        <li>App language</li>
+        <li>Date and time of report</li>
+      </ul>
+      <p>This data is used solely to improve the application. No personal information is included.</p>
+    </div>
+    <div class="section">
+      <h2>🗄️ Data storage</h2>
+      <ul>
+        <li><strong>Scan history</strong> — stored locally on your device only</li>
+        <li><strong>Preferences</strong> (language, mode, theme) — stored locally</li>
+        <li><strong>Terms acceptance</strong> — stored locally with acceptance date</li>
+        <li><strong>Reports</strong> — transmitted anonymously to Firebase (Google)</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>🔒 Security</h2>
+      <p>Reports are stored on Firebase Firestore (Google Cloud) with strict security rules. Only the SafeMamaScan publisher has access. Data is never sold or shared with third parties.</p>
+    </div>
+    <div class="section">
+      <h2>🌐 Third-party services</h2>
+      <ul>
+        <li><strong>Open Food Facts</strong> — open source food database. No personal data is transmitted.</li>
+        <li><strong>Firebase (Google)</strong> — receives anonymous error reports only.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>⚖️ Your rights (GDPR)</h2>
+      <ul>
+        <li><strong>Deletion</strong> — clear your history via History → Clear</li>
+        <li><strong>Access</strong> — your local data is accessible on your device</li>
+        <li><strong>Contact</strong> — <a href="mailto:safemamascanapp@gmail.com">safemamascanapp@gmail.com</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>👶 Minors' data</h2>
+      <p>SafeMamaScan is not intended for persons under 18 and does not knowingly collect data from minors.</p>
+    </div>
+    <div class="section">
+      <h2>🔄 Changes</h2>
+      <p>This policy may be updated. The last modification date is shown at the top. Users will be informed of significant changes when opening the application.</p>
+    </div>
+    <div class="section">
+      <h2>📧 Contact</h2>
+      <p>For any questions: <a href="mailto:safemamascanapp@gmail.com">safemamascanapp@gmail.com</a></p>
+    </div>
+    <div class="disclaimer">
+      <p>⚕️ SafeMamaScan is an informational tool only and does not replace the advice of a healthcare professional.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 SafeMamaScan — <a href="mailto:safemamascanapp@gmail.com">safemamascanapp@gmail.com</a></p>
+</footer>
+
+<script>
+  function switchLang(lang) {
+    document.querySelectorAll('[lang]').forEach(el => {
+      el.style.display = el.getAttribute('lang') === lang ? 'block' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent.includes(lang === 'fr' ? 'Français' : 'English'));
+    });
+  }
+</script>
+</body>
+</html>
